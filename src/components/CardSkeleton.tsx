@@ -2,7 +2,7 @@ import { Card, CardBody, HStack, Heading, Image, Skeleton, SkeletonText } from "
 
 export default function CardSkeleton() {
     return (
-        <Card width='250px' borderRadius={5} overflow="hidden">
+        <Card>
             <Skeleton height='200px'/>
             <CardBody>
                <SkeletonText/>
